@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1 {
+    text-shadow: 0 0 3px #B0E0E6, 0 0 5px #0000FF;
+}
+    
+p1{
+    text-shadow: 0 0 3px #FFD700 ;
+     font-size: 30px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+     background-image: url(8.jpg)
+    }
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+    background-color: 	#D2B48C;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+ }
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color:	#FFFF00	;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: 	#800000;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: 	white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a.active {
+    background-color: #ddd;
+    color: black;
+}
+.column {
+  float: left;
+  width: 16.66%;
+}
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+div.flip:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+form.example button {
+    float: right;
+    width: 5%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    border: 3px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+    border: 3px solid grey;
+    float:right;
+    width: 30%;
+    background: #f1f1f1;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Your Pharmacy</h1>
+  <p1>India's no.1 online medicine store</p1>
+</div>
+
+<div class="topnav">
+  <a class="active" href="#">Home</a>
+  <a href="#">Prescription</a>
+<a href="#">About Us</a>
+ <a href="sign.htm" style="float:right">Registor</a>
+ <a href="login.htm" style="float:right">Login</a>
+<form class="example" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+  
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+   
+
+ <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 /3</div>
+    <img src="1.jpg" style="width:100%">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">2 /3</div>
+    <img src="3.jpg" style="width:100%">
+  </div>
+   
+ <div class="mySlides">
+    <div class="numbertext">3 /3</div>
+    <img src="6.jpeg" style="width:100%">
+  </div>
+ 
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <img src="4.jpeg" width="460" height="345">
+ <img src="5.jpeg" width="460" height="345">
+      <p>Some text..</p>
+      <p>Disclaimer : Your Pharmacy bridges the gap between patient and pharmacist. Your Pharmacy and its staff are acting as a portal to connect you to the authorized and expert pharmacist of Jan Aushadhi Kendra.
+</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Contact Us</h2>
+<div class="flip">
+ <img  src="7.jpg" style="width:70%">
+</div>
+   <p>Mobile NO   +91-9828395731</p>
+<p>E-mail -  help@yourpharmacy.co.in</p>
+    </div>
+    <div class="card">
+      <h3>Upload Prescription</h3>
+    <p>Choose File</p>
+     <input type="file"> 
+ <input type="submit" value="submit">
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p> © 2018.All rights reserved</p>
+<p>In compliance with Pradhan Mantri Bhartiya Jan Aushadhi Pariyojna</p>
+<p>A CREATE. Product</p>
+</div>
+
+</body>
+</html>
